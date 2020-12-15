@@ -31,12 +31,7 @@ Hello *{}* My name is *MissTina*!
 
 I'm here to manage your groups! 
 
-Click Help button to find out more about how to use me to my full potential. 
-
-Made by @CyberBoyAyush
-
-Made With 💗 In 🇮🇳
-"""
+Click Help button to find out more about how to use me to my full potential."""
 
 
 
@@ -165,10 +160,10 @@ def send_start(bot, update):
                 
     keyboard = [[
         InlineKeyboardButton(text=tld(chat.id, '🥳Add To Group'),
-                             url="https://t.me/MissSabrina_bot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
+                             url="https://t.me/MissTinaRobot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
         ]]
     keyboard += [[
-        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/SabrinaChat")
+        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/ParaboyMirror")
     ]]
 
     update.effective_message.reply_text(
